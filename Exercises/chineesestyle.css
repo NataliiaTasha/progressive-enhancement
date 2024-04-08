@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-indent: 30px;
+    letter-spacing: .5px;
+    color: #04052A;
+}
+
+a:link {
+    color: #C100FF;
+    font-size: 18px;
+}
+
+a:visited {
+    color: #00B133;
+}
+a:hover {
+    background-color: #fffd8a;
+}
+
+.quotation {
+    max-width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: #d1d1d1;
+    border-left: 3px solid firebrick;
+    padding: 80px 30px;
+}
+
+body {
+    background-image: url(like-dislike-icons-with-thumb-up-down-removebg-preview.png), linear-gradient(90deg, #ff0000, #0000ff);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+q {
+    font-style: italic;
+}
+
+.villagers {
+    border-left: 3px solid #ff6600;
+}
+
+.farmer {
+    border-left: 3px solid #00B133;
+}
+
+.good, .bad {
+    text-transform: capitalize;
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #d1d1d1;
+}
+
+ul :nth-child(1) {
+    background-image: url(bien.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    padding-right: 20px;
+}
+
+ul :nth-child(2) {
+    background-image: url(mal.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+
+ul :nth-child(3) {
+    background-image: url(chat.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
+
+img {
+    margin: 30px;
+}
+
+
